@@ -14,17 +14,22 @@ const Index = (props) => {
       <ul>
         <a href="">
           <i className="fa fa-home" aria-hidden="true"></i>
-          <li>Inicio</li>
+          <li>Home</li>
           <hr />
         </a>
         <a href="">
           <i className="fa fa-home" aria-hidden="true"></i>
-          <li>Portafolios</li>
+          <li>About</li>
           <hr />
         </a>
         <a href="">
           <i className="fa fa-home" aria-hidden="true"></i>
-          <li>Quienes somos?</li>
+          <li>Portfolio</li>
+          <hr style={{ color: "#22ce78" }} />
+        </a>
+        <a href="">
+          <i className="fa fa-home" aria-hidden="true"></i>
+          <li>Contact</li>
           <hr />
         </a>
       </ul>

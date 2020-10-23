@@ -5,14 +5,14 @@
   width: 100%;
   background-color: #161616;
   height: 72px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 8px 20px 0 rgba(0, 0, 0, 0.24);
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.4), 0 8px 20px 0 rgba(0, 0, 0, 0.18);
   z-index: 100;
 
   .toolbar-navigation {
     display: flex;
     height: 100%;
     align-items: center;
-    padding: 0 1rem;
+    padding: 0 1.2rem;
   }
 
   .toolbar-logo {
@@ -20,10 +20,11 @@
     h1 {
       color: #fff;
       text-align: center;
+      margin: auto;
     }
   }
 
   .space-list {
-    flex: 0.5;
+    flex: 0.48;
   }
 }
