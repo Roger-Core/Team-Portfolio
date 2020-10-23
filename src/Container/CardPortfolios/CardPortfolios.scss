@@ -1,0 +1,12 @@
+.portfolios {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  margin: 160px auto;
+  flex-wrap: wrap;
+  flex-direction: row;
+
+  .port-info {
+    color: #22ce78;
+  }
+}
