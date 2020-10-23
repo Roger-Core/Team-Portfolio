@@ -3,6 +3,7 @@ import Backdrop from "./Components/Backdrop/Index";
 import Navbar from "./Components/Navbar/Index";
 import Sidedrawer from "./Components/Sidedrawer/Index";
 import HomePage from "./Container/HomePage/Index";
+import Footer from "./Components/Footer/Index";
 
 import "./App.css";
 
@@ -33,6 +34,7 @@ const App = () => {
       {sidedrawer}
       {backdrop}
       <HomePage />
+      <Footer />
     </div>
   );
 };
