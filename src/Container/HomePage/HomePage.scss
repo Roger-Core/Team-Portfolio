@@ -5,3 +5,27 @@
     color: #fff;
   }
 }
+
+.col-md-12.text-center {
+  h4 {
+    font-size: 38px;
+    color: #22ce78;
+  }
+  .btn-link {
+    margin: 30px auto;
+    width: 166px;
+    height: 62px;
+    border: none;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+    font-size: 20px;
+    border-radius: 5px;
+
+    &:hover {
+      background-color: #22ce78;
+    }
+  }
+}
