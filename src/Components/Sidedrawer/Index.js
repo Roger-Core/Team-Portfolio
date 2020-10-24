@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import "./Sidedrawer.scss";
 
@@ -17,26 +18,26 @@ const Index = (props) => {
         >
           MENU
         </h2>
-        <a href="">
+        <Link to="/">
           <i className="fa fa-home" aria-hidden="true"></i>
           <li>Home</li>
           <hr />
-        </a>
-        <a href="">
+        </Link>
+        <Link to="/">
           <i class="fas fa-users" aria-hidden="true"></i>
           <li>About</li>
           <hr />
-        </a>
-        <a href="">
+        </Link>
+        <Link to="/portfolios">
           <i className="fas fa-briefcase" aria-hidden="true"></i>
           <li>Portfolio</li>
           <hr style={{ color: "#22ce78" }} />
-        </a>
-        <a href="">
+        </Link>
+        <Link to="/">
           <i class="fas fa-address-card" aria-hidden="true"></i>
           <li>Contact</li>
           <hr />
-        </a>
+        </Link>
       </ul>
     </nav>
   );

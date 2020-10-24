@@ -1,5 +1,5 @@
 import React from "react";
-import Hero from "../../Container/CardHero/Index";
+import CardHero from "../../Container/CardHero/Index";
 
 import "./Heros.scss";
 
@@ -30,7 +30,7 @@ const Index = () => {
 
   const getHero = Heros.map((hero) => {
     return (
-      <Hero
+      <CardHero
         key={hero.id}
         name={hero.name}
         message={hero.message}
