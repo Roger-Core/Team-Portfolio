@@ -14,6 +14,10 @@ const Index = () => {
         </div>
       </div>
       <Hero />
+      <div className="col-md-12 text-center">
+        <h4>We will work together for your creative project.</h4>
+        <button className="btn-link">Portfolio</button>
+      </div>
     </section>
   );
 };
