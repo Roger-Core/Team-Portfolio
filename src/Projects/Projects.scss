@@ -1,4 +1,6 @@
 .projects {
-	display: flex;
-	flex-wrap: nowrap;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-wrap: wrap;
 }

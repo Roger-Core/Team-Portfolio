@@ -28,7 +28,7 @@ const Index = (props) => {
           <li>About</li>
           <hr />
         </Link>
-        <Link to="/portfolios">
+        <Link to="/">
           <i className="fas fa-briefcase" aria-hidden="true"></i>
           <li>Portfolio</li>
           <hr style={{ color: "#22ce78" }} />
