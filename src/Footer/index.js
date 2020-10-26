@@ -19,7 +19,7 @@ const Footer = () => {
                 }}
               >
                 <h3 className="f-title f_600 t_color f_size_18">
-                  Team Solutions
+                  BeDevs Solutions
                 </h3>
               </div>
             </div>
@@ -40,7 +40,7 @@ const Footer = () => {
           <div className="row align-items-center">
             <div className="col-lg-6 col-sm-7">
               <p className="mb-0 f_400">
-                © TEAM NAME Inc.. 2020 All rights reserved.
+                © BeDevs Software Inc.. 2020 All rights reserved.
               </p>
             </div>
           </div>

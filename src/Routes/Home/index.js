@@ -19,8 +19,8 @@ const Home = () => {
       <div className="col-md-12 text-center">
         <h3>Developers Team</h3>
         <p className="about-us">
-          We are a team of full-stack developers capable of working and managing
-          any type of project. <br /> You can trust our ability and experience.
+          Our team is highly trained and updated on new trends in web page
+          design <br /> to meet the most demanding needs of customers.
         </p>
         <DevsInfo />
       </div>
