@@ -1,5 +1,6 @@
 import React from "react";
 import DevsInfo from "../../DevsInfo";
+import TechIcons from "../TechIcons";
 
 import "./Home.scss";
 
@@ -23,6 +24,7 @@ const Home = () => {
           design <br /> to meet the most demanding needs of customers.
         </p>
         <DevsInfo />
+        <TechIcons />
       </div>
     </section>
   );
