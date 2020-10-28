@@ -1,47 +1,48 @@
+p {
+	color: black;
+}
+
 .presentation {
-  margin: 150px auto;
-  color: #22ce78;
-  .story {
-    color: #fff;
-    h4 {
-      font-size: 38px;
-      color: #fff;
-    }
-  }
+	margin: 150px auto;
+	color: #22ce78;
+	.story {
+		h4 {
+			font-size: 38px;
+		}
+	}
 }
 
 .col-md-12.text-center {
-  h4 {
-    font-size: 38px;
-    color: #22ce78;
-  }
+	h4 {
+		font-size: 38px;
+		color: #22ce78;
+	}
 
-  h3 {
-    margin: 130px auto;
-    font-size: 38px;
-    color: #22ce78;
-  }
+	h3 {
+		margin: 50px auto;
+		font-size: 38px;
+		color: #22ce78;
+	}
 
-  .about-us {
-    font-size: 24px;
-    color: #fff;
-  }
+	.about-us {
+		font-size: 24px;
+	}
 
-  .btn-link {
-    margin: 30px auto;
-    width: 166px;
-    height: 62px;
-    border: none;
-    background-color: #fff;
-    color: #333;
-    cursor: pointer;
-    outline: none;
-    transition: all 0.3s ease-in-out;
-    font-size: 20px;
-    border-radius: 5px;
+	.btn-link {
+		margin: 30px auto;
+		width: 166px;
+		height: 62px;
+		border: none;
+		background-color: #fff;
+		color: #333;
+		cursor: pointer;
+		outline: none;
+		transition: all 0.3s ease-in-out;
+		font-size: 20px;
+		border-radius: 5px;
 
-    &:hover {
-      background-color: #22ce78;
-    }
-  }
+		&:hover {
+			background-color: #22ce78;
+		}
+	}
 }
